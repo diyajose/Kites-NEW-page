@@ -459,7 +459,8 @@ section {
 }
 
 .post-entry-1 h2 a {
-  color: var(--color-black);
+  color: var(--color-red);
+  font-size: 20px;
 }
 
 .post-entry-1.lg h2 {
