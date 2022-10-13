@@ -128,8 +128,8 @@ section {
 }
 
 .header .logo img {
-  max-height: 40px;
-  margin-right: 6px;
+  max-height: 100px;
+  margin-right: 30px;
 }
 
 .header .logo h1 {
