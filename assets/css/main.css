@@ -1301,4 +1301,256 @@ section {
 }
 
 
+/*--------------------------------------------------------------
+# We reached
+--------------------------------------------------------------*/
 
+.reach {
+  background: url(https://cdn.kites.foundation/img/events-bg.jpg) center center no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.reach::before {
+  content: '';
+  background-color: rgba(79, 77, 75, 0.8);
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+
+.reach .section-title h2 {
+  color: #fff;
+}
+
+.reach .container {
+  position: relative;
+}
+
+@media (min-width: 1024px) {
+  .reach {
+    background-attachment: fixed;
+  }
+}
+
+.reach .events-carousel {
+  background: rgba(255, 255, 255, 0.08);
+  padding: 30px;
+}
+
+.reach .event-item {
+  color: #fff;
+}
+
+
+.reach .event-item h3 {
+  font-weight: 600;
+  font-size: 26px;
+  color: #ffb03b;
+}
+
+.reach .event-item .price {
+  font-size: 26px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.reach .event-item .price span {
+  border-bottom: 2px solid #ffb03b;
+}
+
+.reach .event-item ul {
+  list-style: none;
+  padding: 0;
+}
+
+.reach .event-item ul li {
+  padding-bottom: 10px;
+}
+
+.reach .event-item ul i {
+  font-size: 20px;
+  padding-right: 4px;
+  color: #ffb03b;
+}
+
+.reach .event-item p:last-child {
+  margin-bottom: 0;
+}
+
+.reach .owl-nav, .reach .owl-dots {
+  margin-top: 5px;
+  text-align: center;
+}
+
+.reach .owl-dot {
+  display: inline-block;
+  margin: 0 5px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #ddd !important;
+}
+
+.reach .owl-dot.active {
+  background-color: #ffb03b !important;
+}
+
+@media (min-width: 992px) {
+  .reach .testimonial-item p {
+    width: 80%;
+  }
+}
+
+
+
+
+/*--------------------------------------------------------------
+Latest News
+-----------*/
+
+.article p, article p, .most-popular p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.85);
+}
+
+.article .time {
+  font-size: 16px;
+  letter-spacing: .5px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding-left: 10;
+  padding-left: 10px;
+  min-width: 80px;
+  background-color: transparent;
+  border-radius: 5px;
+}
+
+.article {
+  margin-bottom: 0px;
+  padding-bottom: 0;
+}
+
+article figure {
+  height: 250px;
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+article figure img {
+  width: 100%;
+}
+
+article .detail {
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+}
+
+.article .padding {
+  padding: 15px;
+  padding-top: 0;
+}
+
+.article h2 {
+  font-family: "Poppins", sans-serif;
+  text-transform: capitalize;
+  font-size: 16px;
+  margin: 0;
+  line-height: 25px;
+  margin-bottom: 10px;
+}
+
+.article h2 a {
+  color: #333;
+  text-decoration: none;
+}
+
+.article h2 a:hover {
+  color: #ffb03b;
+}
+
+.article p {
+  line-height: 24px;
+  font-size: 14px;
+}
+
+.article .detail {
+  display: flex;
+  margin-bottom: 5px;
+  font-size: 12px;
+}
+
+.time {
+  margin: 0 20px;
+  color: #191E21;
+}
+
+article footer {
+  text-align: right;
+}
+
+article footer .btn-primary {
+  background-color: transparent;
+  border-color: #ffb03b;
+  color: #ffb03b;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+  overflow: hidden;
+  transition: all .5s;
+  -moz-transition: all .5s;
+  -o-transition: all .5s;
+  -webkit-transition: all .5s;
+  font-size: 15px;
+  border-radius: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  letter-spacing: .5px;
+}
+
+article footer .btn-primary:after {
+  position: absolute;
+  content: ' ';
+  bottom: 0;
+  left: 20px;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  transition: all .5s;
+  -moz-transition: all .5s;
+  -webkit-transition: all .5s;
+  -o-transition: all .5s;
+  z-index: -1;
+}
+
+article footer .btn-primary:hover {
+  color: #fff;
+  background-color: #ffb03b;
+  border-color: #fff;
+}
+
+article footer .btn-primary:hover:after {
+  transform: scale(20);
+  -moz-transform: scale(20);
+  -webkit-transform: scale(20);
+  -o-transform: scale(20);
+  background-color: rgb(104, 98, 90);
+}
+
+article footer .btn-primary:focus {
+  outline: 0;
+}
+
+.more {
+  overflow: hidden;
+  height: 43px;
+}
