@@ -32,6 +32,22 @@ h6 {
   margin-top: 90px;
 }
 
+
+.section-title h2 {
+  margin: 15px 0 0 0;
+  font-size: 50px;
+  font-weight: 700;
+  color: #5f5950;
+}
+
+.section-title h2 span {
+  color: #ffb03b;
+}
+
+
+
+
+
 /*--------------------------------------------------------------
 # Sections & Section Header
 --------------------------------------------------------------*/
@@ -1403,6 +1419,32 @@ section {
   .reach .testimonial-item p {
     width: 80%;
   }
+}
+
+
+
+
+
+/*--------------------------------------------------------------
+# Gallery
+--------------------------------------------------------------*/
+
+.gallery {
+  padding-bottom: 0;
+}
+
+.gallery .gallery-item {
+  overflow: hidden;
+  border-right: 3px solid #fff;
+  border-bottom: 3px solid #fff;
+}
+
+.gallery .gallery-item img {
+  transition: all ease-in-out 0.4s;
+}
+
+.gallery .gallery-item:hover img {
+  transform: scale(1.1);
 }
 
 
